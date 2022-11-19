@@ -1,0 +1,48 @@
+.lists {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+  background-color: white;
+  width: 40%;
+  max-width: 100%;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.control-list {
+  display: flex;
+  align-items: flex-start;
+  border-radius: 5px;
+  margin-left: 2rem;
+}
+
+.control-list > img {
+  display: block;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background-color: inherit;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 0.7rem;
+  margin-top: 1rem;
+  gap: 0;
+}
+.user-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.user-age {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: rgba(133, 121, 121, 0.737);
+  font-weight: bolder;
+}
+.heading {
+  margin: 1rem auto;
+}
